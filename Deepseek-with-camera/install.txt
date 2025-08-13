@@ -1,0 +1,8 @@
+装anaconda
+conda create -n dscamera python==3.8.19
+conda activate dscamera
+cd /d
+pip install -r requirements.txt
+pip install opencv-python numpy pyaudio keyboard customtkinter pillow oss2 pydub openai dashscope funasr
+python dscamera.py
+
